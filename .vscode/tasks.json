@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",
+    "command": "npm",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "e2e-compile",
+            "isBuildCommand": true,
+            "args": [
+                "run",
+                "e2e-compile"
+            ]
+        }
+    ]
+}
